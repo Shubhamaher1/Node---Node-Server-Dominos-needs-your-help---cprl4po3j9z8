@@ -8,7 +8,7 @@ function handleServer(req, res) {
     res.writeHead(200,{
         "content-type":"text/plain"
     })
-    res.write("Welcome to Dominos!");
+    // res.write("Welcome to Dominos!");
     res.end("Welcome to Dominos!");
   }
   else if(req.url=="/contact"){
